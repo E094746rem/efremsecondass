@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+ body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, rgb(227, 229, 235), rgb(78, 73, 99));
+    background-position: center;
+    background-size: 100%;
+    background-repeat: repeat-y no-repeat;
+    height: 190vh;
+    position: relative;
+}
+
+.cont{
+    box-sizing: border-box;
+  
+}
+
+.efte .efta{
+    font-size: 400px;
+    font-family:Arial, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    background-image: url("../img/desktop-wallpaper-lalibela-ethiopia-ethiopia.jpg");
+    background-size: 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: hsla(0, 0%, 0%, 0.205);
+}
+
+.efte .efta1{
+    font-size: 100px;
+        font-family: Arial, sans-serif;
+        font-weight: bolder;
+        text-align: center;
+        color: hsla(180, 100%, 97%, 0.233);
+}
+
+.container{
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    display: inline-block;
+
+}
+
+.container .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    top: 30px;
+}
+.rig{
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: hsla(45, 6%, 13%, 0.881);
+    border: 3px solid ;
+    border-style: groove;
+    display: flex;
+    align-items: center;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 10px 25px/40px;
+    box-shadow: 2px 2px 2px rgb(126, 126, 118);
+}
+
+.rig a{
+    text-decoration: none;
+}
+
+.lef button{
+    padding: 13px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 25% 10%;
+}
+
+button:hover{
+    transform: scale(1.18);
+        border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+}
+
+.lef .bi{
+    margin-right: 30px;
+    margin-left:8px;
+}
+
+.email{
+    font-size: 18px;
+    padding: 18px 60px;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid rgb(66, 59, 58);
+    border-radius: 20px;
+    position: absolute;
+    width: 500px;
+    left: 370px;
+    bottom: 530px;
+}
+
+.subscribe-b{
+    padding: .9rem 2.3rem;
+    border: none;
+    border-radius: 10px;
+    background-color: burlywood;
+    position: absolute;
+    right: 340px;
+        bottom: 535px;
+}
+
+footer{
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+footer .left figure{
+    margin-left: 15px;
+}
+
+a .fi{
+    border: 2px solid black;
+    padding: 4px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.left .spotal{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.spotal a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a .spota {
+    display: flex;
+    width: 50px;
+    height: 40px;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+
+a .sp{
+   font-weight: 700;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 18px;
+}
+
+.spa{
+    text-decoration: none;
+    border: 2px solid hsl(0, 4%, 36%);
+    border-radius: 10px;
+    margin-left: -3px;
+    background-color: hsl(0, 0%, 0%);
+    color: azure;
+}
+
+
+.left-b{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 6px;
+    box-shadow: 2px 2px 4px hsla(0, 3%, 22%, 0.664), -2px -2px 6px rgba(191, 212, 97, 0.692);
+    transition: 1s box-shadow;
+}
+
+.copy{
+    font-size: 23px;
+    margin-right: 12px;
+    font-weight: 600;
+    margin-bottom: -10px;
+}
+
+.profile{
+    display: flex;
+    height: 10rem;
+    gap: 1rem;
+    position: relative;
+    bottom: -200px;
+}
+
+.profile > div{
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+
+.profile >div:hover{
+    flex: 5rem;
+}
+
+.photo1{
+    background-image: url("/others/31.jpg");
+}
+
+.photo2{
+    background-image: url("/others/images.jpeg");
+}
+
+.photo3{
+    background-image: url("/others/images\ \(1\).jpeg");
+}
+
+.photo4{
+    background-image: url("/others/maxresdefault.jpg");
+}
+
+.photo5{
+    background-image: url("/others/mqdefault.jpg");
+}
+
+.photo6{
+    background-image: url("/others/ab67616d0000b273d01d38d10426f75556cc046e.jpeg");
+}

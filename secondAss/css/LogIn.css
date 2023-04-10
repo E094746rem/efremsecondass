@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(204, 228, 220);
+    background-image: url("/backg/desktop-wallpaper-lalibela-ethiopia-ethiopia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    min-height: 180vh;
+}
+
+.container {
+    padding: 150px 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.box-show {
+    display: flex;
+    border-radius: 90px;
+    width: 400px;
+    height: 600px;
+}
+
+.form-container {
+    position: absolute;
+    top: 0;
+}
+
+.log-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid rgb(228, 222, 233);
+    background-color: rgb(194, 187, 199);
+    border-radius: 20px;
+    width: 240px;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+}
+
+.log-icon:hover {
+    cursor: pointer;
+    transform: translateX(-2px 2px);
+    transition: .2s all;
+    box-shadow: 2px 2px 3px rgb(146, 142, 148);
+}
+
+
+.log-icon img {
+    height: 30px;
+    display: inline;
+}
+
+.log-icon img {
+    height: 25px;
+    display: inline;
+}
+
+.icon {
+    position: absolute;
+    top: 90px;
+    left: 89px;
+}
+
+.log-center .focused {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 250px;
+    left: 80px;
+    width: 70%;
+    min-height: max-content;
+}
+
+input {
+    font-size: 16px;
+    border: none;
+    overflow: hidden;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(150, 97, 97);
+    outline: none;
+}
+
+.want {
+    margin-bottom: 20px;
+}
+
+.pass:focus {
+    border: 2px solid rgb(240, 238, 235);
+    padding: 0.4rem 1.5rem;
+    border-radius: 15px;
+}
+
+.focused .check {
+    position: absolute;
+    top: 160px;
+        left: 0px;
+        background-color: hsla(207, 7%, 70%, 0.425);
+        border-top: 0;
+        color: antiquewhite;
+}
+
+.focused .forget {
+    position: absolute;
+    top: 130px;
+    background-color: hsla(207, 7%, 70%, 0.425);
+    border-bottom: 0;
+}
+
+button {
+    padding: .9rem 4.5rem;
+    background-color: hsla(240, 47%, 22%, 0.555);
+    border-radius: 20px;
+    border: 1px solid snow;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 29pc;
+    left: 120px;
+}
+
+.bRsiqD {
+    display: table;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    margin: 0px auto 1em;
+    color: rgb(127, 127, 127);
+    position: relative;
+    text-align: center;
+    width: 85%;
+    position: absolute;
+    top: 200px;
+    left: 45px;
+}
+
+.bRsiqD::before,
+.bRsiqD::after {
+    border-top: 2px solid rgb(204, 204, 204);
+    content: "";
+    display: table-cell;
+    position: relative;
+    top: 0.8em;
+    width: 42%;
+}
+
+::before,
+::after {
+    box-sizing: border-box;
+}
+.bRsiqD1 {
+    display: table;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    margin: 0px auto 1em;
+    color: rgb(127, 127, 127);
+    text-align: center;
+    width: 400px;
+    position: absolute;
+    top: 33pc;
+    left: 23px;
+}
+
+.bRsiqD1::before,
+.bRsiqD1::after {
+    border-top: 2px solid rgb(204, 204, 204);
+    content: "";
+    display: table-cell;
+    position: relative;
+    top: 0.8em;
+    width: 42%;
+}
+
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+h3{
+    word-break: keep-all;
+    position: absolute;
+    top: 50px;
+    left: 24px;
+    margin-left: 20px;
+    color:hsla(204, 26%, 93%, 0.712) ;
+    width: 400px; 
+}
+
+h4{
+    word-break: keep-all;
+        position: absolute;
+        top: 36pc;
+        left: 110px;
+        margin-left: 20px;
+        color: hsla(204, 26%, 93%, 0.712);
+        width: 400px;
+}
+
+.button-s{
+    padding: .9rem 4.5rem;
+        background-color: hsla(240, 47%, 22%, 0.555);
+        border-radius: 20px;
+        border: 1px solid snow;
+        font-size: 16px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: absolute;
+        top: 39pc;
+        left: 120px;
+}
